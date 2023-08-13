@@ -1,0 +1,135 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;
+    height: 700px;
+    border-radius: 16px;
+    font-family: [Red Hat Display]("https://fonts.google.com/specimen/Red+Hat+Display");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img1 {
+    width: 500px;
+    height: 40%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+#h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#P1 {
+    font-size: 26px;
+    margin: 25px;
+    text-align: center;
+}
+
+.disign {
+    background-color: hsl(0, 0%, 95%);
+    width: 60%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.img2 {
+    margin-right: 20px;
+}
+
+#p3 {
+    margin-left: 100px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+#p3:active {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#p2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#span {
+    color: hsl(228, 15%, 61%);
+    margin-top: 7px;
+}
+
+button {
+    color: hsl(0, 0%, 95%);
+    ;
+    margin-top: 35px;
+    background-color: hsl(245, 75%, 52%);
+    width: 68%;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    box-shadow: 2px 15px 15px hsl(245, 89%, 82%);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+#p4 {
+    color: hsl(228, 15%, 61%);
+    cursor: pointer;
+}
+
+#p4:active {
+    color: hsl(0, 0%, 0%);
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 350px;
+    }
+
+    #img1 {
+        width: 350px;
+    }
+
+    #p3 {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .disign {
+        width: 70%;
+    }
+
+    #p3 {
+        margin-left: 40px;
+    }
+}
